@@ -1,4 +1,5 @@
 .header {
+    width: 100%;
     height: 200px;
     background-color: rgb(144, 224, 238);
     border-bottom: 2px solid #000;
@@ -7,12 +8,17 @@
     border-right: 2px solid #000;
     margin-left: 15px;
     margin-right: 15px;
+    vertical-align: middle;
+    
 }
-
+.chet{
+    background-color: rgb(0, 110, 255);
+}
 .nav-links{
     display: inline-block;
     margin: 0 15px;
     vertical-align: top;
+    text-align: center;
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin-top: 10px;
@@ -61,13 +67,13 @@
 }
 
 .name {
-    margin-top: 25px;
     font-size: 50pt;
     margin-left: 750px;
 }
 
 .footer{
     text-align: 20px;
+    width: 100%;
     margin-top: 20px;
     border-bottom: 2px solid #000;
     border-top: 2px solid #000;
@@ -92,9 +98,11 @@ table, th, td{
 }
 
 .main {
+    width: 960px;
     display: block;
-    width: 100%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     background-color: rgb(255, 255, 255);
 }
 
@@ -127,5 +135,5 @@ table, th, td{
     border-right: 2px solid #000;
 }
 .name22{
-    margin-top: 50px;
+    vertical-align: middle
 }
