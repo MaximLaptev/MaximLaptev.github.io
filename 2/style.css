@@ -1,1 +1,132 @@
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(144, 224, 238);
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
+.nav-links{
+    display: inline-block;
+    margin: 0 15px;
+    vertical-align: top;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.nav{
+    margin-top: 20px;
+    background-color: rgb(144, 224, 238);
+    margin-left: 150px;
+    margin-right: 150px;
+    border-bottom: 2px solid #000;
+    height: 50px;
+    border-top: 2px solid #000 ;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.links{
+    margin-top: 20px;
+    background-color: rgb(144, 224, 238);
+    margin-left: 150px;
+    margin-right: 150px;
+    border-left: 50px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000 ;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.form{
+    margin-top: 20px;
+    background-color: rgb(144, 224, 238);
+    margin-left: 150px;
+    margin-right: 150px;
+    border-left: 50px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000 ;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+	margin-left: 300px;
+    float: left;
+}
+
+.name {
+    margin-top: 25px;
+    font-size: 50pt;
+    margin-left: 750px;
+}
+
+.footer{
+    text-align: 20px;
+    margin-top: 20px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    background-color: rgb(144, 224, 238);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+.navi {
+    display: block;
+    width: 960px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    padding-left: 10;
+}
+
+.main {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.body {
+    background-color: rgb(255, 255, 255);
+    font-family: serif, "Times New Roman";
+    font-size: 28px;
+	width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.har{
+    margin-top: 20px;
+    background-color: rgb(144, 224, 238);
+    margin-left: 150px;
+    margin-right: 150px;
+    border-left: 50px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000 ;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.h11{
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000 ;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.name22{
+    margin-top: 50px;
+}
