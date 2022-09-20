@@ -12,7 +12,7 @@
     
 }
 .chet{
-    background-color: rgb(0, 110, 255);
+    background-color: rgb(144, 224, 238);
 }
 .nav-links{
     display: inline-block;
@@ -25,9 +25,8 @@
 }
 .nav{
     margin-top: 20px;
+    width: 960px;
     background-color: rgb(144, 224, 238);
-    margin-left: 150px;
-    margin-right: 150px;
     border-bottom: 2px solid #000;
     height: 50px;
     border-top: 2px solid #000 ;
@@ -37,10 +36,9 @@
 
 .links{
     margin-top: 20px;
+    width: 960px;
     background-color: rgb(144, 224, 238);
-    margin-left: 150px;
-    margin-right: 150px;
-    border-left: 50px;
+   
     border-bottom: 2px solid #000;
     border-top: 2px solid #000 ;
     border-left: 2px solid #000;
@@ -50,8 +48,7 @@
 .form{
     margin-top: 20px;
     background-color: rgb(144, 224, 238);
-    margin-left: 150px;
-    margin-right: 150px;
+    width: 960px;
     border-left: 50px;
     border-bottom: 2px solid #000;
     border-top: 2px solid #000 ;
@@ -120,8 +117,7 @@ table, th, td{
 .har{
     margin-top: 20px;
     background-color: rgb(144, 224, 238);
-    margin-left: 150px;
-    margin-right: 150px;
+    width: 960px;
     border-left: 50px;
     border-bottom: 2px solid #000;
     border-top: 2px solid #000 ;
