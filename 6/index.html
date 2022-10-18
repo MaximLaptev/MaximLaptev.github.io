@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script defer src="index.js"></script> 
+    <title>Задание №6</title>
+</head>
+<body>
+    <div class="body">
+        <div id="calculateResult">
+            <form>
+                <div>
+                    <label>Калькулятор стоимости мебели 🛏</label>
+                    <br>
+                        <select class="selectElement" name="selectElementMebel">
+                            <option value="ElementDivan">Диван</option>
+                            <option value="ElementStul">Стул</option>
+                            <option value="ElementShkaf">Шкаф</option>
+                        </select> 
+                        <div class="pis d-none" id="radioElement">
+                            <div class="rads">
+                                <input type="radio" id="radio1" name="myradio" value="valueRadio1" checked>
+                                <label>Комплект (Дешёвый)</label>
+                            </div>
+                            <div class="rads">
+                                <input type="radio" id="radio2" name="myradio" value="valueRadio2">
+                                <label>Комплект (Средний)</label>
+                            </div>
+                            <div class="rads">
+                                <input type="radio" id="radio3" name="myradio" value="valueRadio3">
+                                <label>Комплект (Дорогой)</label>
+                            </div>
+                        </div>
+                        <div id="checkElement" class="d-none">
+                            <div class="checks">
+                                <input type="checkbox" class="check" id="check" name="mycheck">
+                                <label class="che" for="check">Доставка</label>
+                            </div>
+                        </div>
+                    <input name="count" type="text" class="form" id="count" placeholder="Количество товара: ">         
+                </div>
+              
+            </form>   
+            Цена: 
+        <div class="result" id="result"></div>
+     </div> 
+    </div>
+</body>
+</html> 
