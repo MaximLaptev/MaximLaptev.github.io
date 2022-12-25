@@ -1,0 +1,111 @@
+.text-align-right {
+    text-align: right
+}
+
+.text-align-center {
+    text-align: center
+}
+
+.text-align-justify {
+    text-align: justify
+}
+
+.align-left {
+    float: left
+}
+.form-actions form-group js-form-wrapper form-wrapper{
+    height: 150px;
+    weight: 200px;
+}
+.align-right {
+    float: right
+}
+
+.align-center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.fieldgroup {
+    padding: 0;
+    border-width: 0
+}
+
+.container-inline div, .container-inline label {
+    display: inline-block
+}
+
+.container-inline .details-wrapper {
+    display: block
+}
+
+.clearfix:after {
+    display: table;
+    clear: both;
+    content: ""
+}
+.view-content,
+.view-team.view-display-id-page_1 .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-family: Montserrat;
+}
+.slide--1 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #050c33;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1;
+    padding-bottom: 30px;
+}
+.js details:not([open]) .details-wrapper {
+    display: none
+}
+
+.hidden {
+    display: none
+}
+
+.visually-hidden {
+    position: absolute !important;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    width: 1px;
+    height: 1px;
+    word-wrap: normal
+}
+
+.visually-hidden.focusable:active, .visually-hidden.focusable:focus {
+    position: static !important;
+    overflow: visible;
+    clip: auto;
+    width: auto;
+    height: auto
+}
+
+.invisible {
+    visibility: hidden
+}
+
+.item-list__comma-list, .item-list__comma-list li {
+    display: inline
+}
+
+.item-list__comma-list {
+    margin: 0;
+    padding: 0
+}
+
+.item-list__comma-list li:after {
+    content: ", "
+}
+
+.item-list__comma-list li:last-child:after {
+    content: ""
+}
